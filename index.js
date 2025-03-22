@@ -370,11 +370,11 @@ window.onload = function () {
     // Get the error message empty element created above
     const errorMessage = document.getElementById("error-message");
     if (totalGWh > energyNeeded) {
-      // Show error message if total is over 100 GWh
+      // Show error message if total is over energyNeeded GWh
       errorMessage.textContent = `⚠️ Too much energy! You have allocated ${totalGWh} GWh. Reduce to ${energyNeeded} GWh.`;
       errorMessage.style.display = "block";
     } else if (totalGWh < energyNeeded) {
-      // Show error message if total is under 100 GWh
+      // Show error message if total is under energyNeeded GWh
       errorMessage.textContent = `⚠️ Too little energy! You have allocated ${totalGWh} GWh. Increase to ${energyNeeded} GWh.`;
       errorMessage.style.display = "block";
     } else {
