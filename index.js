@@ -246,9 +246,10 @@ window.onload = function () {
             <label for="size_selector">Pick Size:</label>
             <select id="size_selector">
         <option value="" disabled selected>Please select</option>
-        <option value="Small">Small (2 GwH)</option>
-        <option value="Medium">Medium (30Gwh)</option>
-        <option value="Large">Large (100Gwh)</option>
+        <option value="Small">Small (2 GWh)</option>
+        <option value="Medium">Medium (30GWh)</option>
+        <option value="Large">Large (100GWh)</option>
+        <option value="Mega">Mega (800GWh)</option>
 
       </select>
     </div>
@@ -261,6 +262,7 @@ window.onload = function () {
         gameState.datacentreSize = this.value;
         if (gameState.datacentreSize === "Small") energyNeeded = 2;
         else if (gameState.datacentreSize === "Medium") energyNeeded = 30;
+        else if (gameState.datacentreSize === "Mega") energyNeeded = 800;
         else energyNeeded = 100; // Default to Large
         choosePower(location);
       });
