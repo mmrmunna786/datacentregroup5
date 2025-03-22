@@ -293,7 +293,7 @@ window.onload = function () {
         <h2>Choose Power Source</h2>
         <p>Your datacentre needs ${energyNeeded} Giga-Watt hours of energy per year.</p>
 
-        <p>Build Renewable</p>
+        <h3>Build Renewables</h3>
 
         <label for="solar">Solar (GWh):</label>
         <input type="number" id="solar" min="0" placeholder="0">
@@ -301,7 +301,7 @@ window.onload = function () {
         <label for="wind">Wind (GWh):</label>
         <input type="number" id="wind" min="0" placeholder="0"><br /><br />
 
-        <p>Purchase Energy</p>
+        <h3>Purchase Energy</h3>
         `;
 
     // populate the rest of the options depending on energy sources availability
