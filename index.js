@@ -243,7 +243,7 @@ window.onload = function () {
         } KWh per Km² per year</p>
 
         <div>
-            <label for="size_selector">Pick Size:</label>
+            <label for="size_selector">Pick Datacentre Size in GWh:</label>
             <select id="size_selector">
         <option value="" disabled selected>Please select</option>
         <option value="Small">Small (2 GWh)</option>
