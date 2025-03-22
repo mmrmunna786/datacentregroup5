@@ -299,7 +299,7 @@ window.onload = function () {
         <input type="number" id="solar" min="0" placeholder="0">
 
         <label for="wind">Wind (GWh):</label>
-        <input type="number" id="wind" min="0" placeholder="0">
+        <input type="number" id="wind" min="0" placeholder="0"><br /><br />
 
         <p>Purchase Energy</p>
         `;
