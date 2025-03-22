@@ -26,6 +26,11 @@
     font-style: italic;
 }
 
+strong {
+  font-weight: bold;
+  font-size: 1em; /* Ensure it's not smaller */
+  font-family: "Corbel", "Arial", sans-serif;
+}
 
 :root {
   --primary-color: #0e0e0e; /* Example primary color */
