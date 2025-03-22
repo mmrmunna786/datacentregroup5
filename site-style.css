@@ -279,12 +279,16 @@ body {
 
 /* Info box styling */
 .info-box {
+  display: block;
   margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   padding: 20px;
   background-color: #f9f9f9;
   border: 2px solid #ccc;
   border-radius: 10px;
-  font-family: "Arial", sans-serif;
+  font-family: "Corbel", sans-serif;
   color: var(--text-color-dark);
   display: inline-block;
   width: 80%;
