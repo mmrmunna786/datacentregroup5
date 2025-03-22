@@ -79,7 +79,7 @@ good, we remove it here but that means we need to be a bit more careful with oth
 /*}*/
 
 .content {
-  padding-top: 180px; /* Add padding to ensure content is not hidden under the fixed header */
+  padding-top: 10px; /* Add padding to ensure content is not hidden under the fixed header */
   margin-left: 20px;
   margin-right: 20px;
 }
