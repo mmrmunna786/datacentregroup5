@@ -78,11 +78,7 @@ good, we remove it here but that means we need to be a bit more careful with oth
 /*    padding-left: 35px;*/
 /*}*/
 
-.content {
-  padding-top: 10px; /* Add padding to ensure content is not hidden under the fixed header */
-  margin-left: 20px;
-  margin-right: 20px;
-}
+
 
 /*Applied to 2 main content blocks, will sit in the middle and expand to a max 900px wide*/
 .centered-container {
@@ -320,4 +316,19 @@ body {
 
 .button:hover {
   background-color: #0056b3;
+}
+
+.footer-about-page {
+  padding-top: 10px;
+}
+
+.footer-index-html-page{
+  padding-top: 190px;
+}
+
+.about-info{
+  font-size: 20px;
+}
+.footer-developers-page{
+  padding-top: 350px;
 }
