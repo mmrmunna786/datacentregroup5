@@ -219,7 +219,7 @@ window.onload = function () {
     // change section 1's html
     // With logic to evaluate the bools for energy types availability
     section1.innerHTML = `
-        <h2>Energy and Climate Data for ${selectedLocation.name}</h2>
+        <h2>Energy data for ${selectedLocation.name}</h2>
         <p>${
           selectedLocation.has_geothermal
             ? "Geothermal: Available"
