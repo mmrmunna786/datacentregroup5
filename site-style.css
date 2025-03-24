@@ -349,3 +349,7 @@ body {
 .ul {
     font-size: 20px;
 }
+
+li {
+  font-size: inherit;
+}
