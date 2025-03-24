@@ -113,6 +113,13 @@ good, we remove it here but that means we need to be a bit more careful with oth
   margin-bottom: 20px;
 }
 
+.navbar-brand {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+
 /* .twoColumn {
 /*    display: flex;  /* Enables Flexbox */
 /*    align-items: stretch;  /* Aligns children vertically in the middle */
