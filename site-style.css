@@ -343,4 +343,9 @@ body {
 }
 .main-info{
   font-size: 20px;
+  text-align: left;
+}
+
+.ul {
+    font-size: 20px;
 }
