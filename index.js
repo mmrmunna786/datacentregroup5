@@ -395,7 +395,7 @@ window.onload = function () {
 
   // Energy mix is the list ov vals the user chose for their energy
   window.finaliseGame = function (location, energyMix) {
-    let totalCarbon = 0;
+    // let totalCarbon = 0;
     let nonRenewablesCarbon = 0;
     let renewablesCarbon = 0;
     let firstYearCostTot = 0;
@@ -483,7 +483,7 @@ window.onload = function () {
       resultsSection.innerHTML += `<p>Your datacentre's cost for building renewables is: <strong>£${Number(
         firstYearCostTot.toFixed(0)
       ).toLocaleString()} </strong></p>
-                                    <p>After building renewables in the 1st year your rolling energy costs would be: <strong>£${Number(
+                                    <p>After building renewables in the 1st year your rolling energy costs (less maintainance) would be: <strong>£${Number(
                                       yearlyCostTot.toFixed(0)
                                     ).toLocaleString()}</strong></p>
                                     <p>Your datacentre's initial CO₂ emissions: <strong>${renewablesCarbon.toFixed(
