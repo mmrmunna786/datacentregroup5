@@ -476,7 +476,7 @@ window.onload = function () {
 
       if (windArea !== 0) {
         resultsSection.innerHTML += `<p>Your datacentre would build <strong>${Number(
-          windArea.toFixed(0)
+          windArea.toFixed(2)
         ).toLocaleString()} </strong>km<sup>2</sup> of wind farms.</p>`;
       }
 
