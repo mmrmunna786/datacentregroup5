@@ -96,6 +96,10 @@ good, we remove it here but that means we need to be a bit more careful with oth
   padding: 40px; /* Space out links within the banner */
 }
 
+a {
+  font-size: 20px;
+}
+
 .title {
   display: block;
   font-size: 60px;
@@ -169,6 +173,11 @@ good, we remove it here but that means we need to be a bit more careful with oth
 .form-row-button {
   max-width: 300px;
 }
+
+ul.ref-list li {
+  font-size: 16px;
+}
+
 
 input,
 textarea {

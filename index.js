@@ -239,8 +239,8 @@ window.onload = function () {
           selectedLocation.solar_pot
         } KWh per m² per year</p>
         <p>Wind Potential = ${
-          selectedLocation.wind_pot
-        } KWh per Km² per year</p>
+          selectedLocation.wind_pot/1e6
+        } GWh per Km² per year</p>
 
         <div>
             <label for="size_selector">Pick Datacentre Size in GWh:</label>
