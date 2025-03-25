@@ -11,7 +11,7 @@ window.onload = function () {
     geothermal: 45, // gCO₂/kWh
     nuclear: 12, // gCO₂/kWh
     hydroelectric: 4, // gCO₂/kWh
-    solar: 50, // gCO₂/kWh
+    solar: 48, // gCO₂/kWh
     wind: 11, // gCO₂/kWh
     fossil_fuels: 820, // gCO₂/kWh (coal, oil, gas)
   };
@@ -31,7 +31,7 @@ window.onload = function () {
       solar_pot: 700, // Kwh per meter squared per year
       solar_cost: 350, // per meter squared
       wind_pot: 35000000, // KWh per km squared per year
-      wind_cost: 2000000, // per km squared
+      wind_cost: 4000000, // per km squared
       fossil_fuel_cost: 0.13,
       avgTemp: 5,
       image: "images/iceland.png",
@@ -49,7 +49,7 @@ window.onload = function () {
       solar_pot: 1000,
       solar_cost: 275,
       wind_pot: 12000000,
-      wind_cost: 3000000,
+      wind_cost: 4000000,
       fossil_fuel_cost: 0.075,
       avgTemp: 10,
       image: "images/england.png",
@@ -67,7 +67,7 @@ window.onload = function () {
       solar_pot: 1200,
       solar_cost: 80,
       wind_pot: 30000000,
-      wind_cost: 1500000,
+      wind_cost: 2500000,
       fossil_fuel_cost: 0.023,
       avgTemp: 18,
       image: "images/shanghai.png",
@@ -85,7 +85,7 @@ window.onload = function () {
       solar_pot: 2000,
       solar_cost: 275,
       wind_pot: 25000000,
-      wind_cost: 2500000,
+      wind_cost: 4000000,
       fossil_fuel_cost: 0.17,
       avgTemp: 22,
       image: "images/australia.png",
@@ -103,7 +103,7 @@ window.onload = function () {
       solar_pot: 1800,
       solar_cost: 58.76,
       wind_pot: 30000000,
-      wind_cost: 1500000,
+      wind_cost: 2000000,
       fossil_fuel_cost: 0.039,
       avgTemp: 6,
       image: "images/colorado.png",
@@ -139,7 +139,7 @@ window.onload = function () {
       solar_pot: 1900,
       solar_cost: 145,
       wind_pot: 20000000,
-      wind_cost: 1200000,
+      wind_cost: 2500000,
       fossil_fuel_cost: 0.034,
       avgTemp: 26,
       image: "images/india.png",
@@ -157,7 +157,7 @@ window.onload = function () {
       solar_pot: 2100,
       solar_cost: 1000,
       wind_pot: 10000000,
-      wind_cost: 1200000,
+      wind_cost: 1500000,
       fossil_fuel_cost: 0.3,
       avgTemp: 23,
       image: "images/central_africa.png",

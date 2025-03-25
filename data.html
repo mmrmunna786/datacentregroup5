@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="site-style.css" />
+    <link
+            type="image/png"
+            sizes="16x16"
+            rel="icon"
+            href="./images/icons8-capacitor-16.png"
+    />
+    <!-- bootstrap css link -->
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+    />
+    <!-- bootstrap css link -->
+    <title>EE2080 - Group 5 - Datacentre Game</title>
+    <!-- Google tag (gtag.js) -->
+</head>
+
+<body>
+<!-- <div class="sticky-header">
+  <a class="banner-logo" href="index.html"
+    ><img src="images/blue_re-pict-house-base.png_32.png" alt="Home"
+  /></a>
+</div> -->
+<!-- NAVBAR BOOTSTRAP CODE -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a href="./index.html"
+        ><img src="./images/house-heart.svg" height="60" alt="Home"
+        /></a>
+
+        <a class="navbar-brand" href="./index.html">
+            &nbsp &nbsp Datacentre <br />
+            &nbsp &nbsp &nbsp Designer</a
+        >
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html"
+                    >Home</a
+                    >
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./developers.html"
+                    >Developers</a
+                    >
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- NAVBAR BOOTSTRAP CODE -->
+<!-- header, like footer bootstrap code -->
+<div class="container">
+    <header>
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3"> </ul>
+    </header>
+</div>
+<!-- header like footer bootstrap code-->
+<div class="content centered-container">
+
+    <h2 style="text-align: center;">Data Used</h2><br /><br />
+    <p class="about-info">
+
+        A base cost of solar is set at £275 per square meter, this is scaled by an ease of deployment factor for each location. [1]
+        <br /><br />
+        Wind cost per square km is estimated from the National Renewable Energy Laboratory (US) and scaled for developing and developed locales. [2]
+        <br /><br />
+        Estimations for average yearly potential of solar for each locale were obtained from <a href="https://www.globalsolaratlas.info">Global Solar Atlas</a> [3]
+        <br /><br />
+        Estimations for average yearly potential of wind for each locale were obtained from <a href="https://www.globalwindatlas.com">Global Wind Atlas</a> [4]
+        <br /><br />
+        Data on gCO2/kWh emission obtained from <a href="https://ourworldindata.org/grapher/carbon-intensity-electricity"> Our World In Data</a> [5]
+        <br /><br />
+        Data for our calculations requires specific cost of constructing large scale wind and solar farms for all of our location options.
+        <br /><br />
+        Exact costs are difficult to calculate, and will vary depending on economies of scale, permits, terrain, infrastructure and labour for the area in question.
+        <br /><br />
+        Our estimates for costs of wind and solar are realistic but don't take into account these variences. This will potentially be most pronounced for wind.
+        <br /><br />
+        Additionally, data on costs of nuclear, fossil, geothermal and hydroelectric power is difficult to estimate, with available data pertaining mostly to household use in each locale.
+        <br /><br />
+        For these reasons our app is meant to start the conversation on the merits / drawbacks of different energy types, and get the user thinking about how location plays an important role final chosen location for large scale projects that are energy intensive.
+    </p>
+
+    <br /><br />
+
+    <h2>References</h2>
+        <ul>
+            <li>[1] “How Much Do Solar Panels Cost in the UK? | 2020 | Solar Guide,” www.solarguide.co.uk, 2024. https://www.solarguide.co.uk/how-much-does-it-cost-to-install-solar-panels</li>
+            <li>[2]"Index | Electricity | 2023 | ATB | NREL,” Nrel.gov, 2023. https://atb.nrel.gov/electricity/2023/index#wind (accessed Mar. 25, 2025).</li>
+            <li>[3] Global Solar Atlas, “Global Solar Atlas,” Globalsolaratlas.info, 2020. https://globalsolaratlas.info/map</li>
+            <li>[4] Global Wind Atlas, “Global Wind Atlas,” globalwindatlas.info, 2024. https://globalwindatlas.info/en/</li>
+            <li>[5] Our World in Data, “Carbon intensity of electricity,” Our World in Data, 2022. https://ourworldindata.org/grapher/carbon-intensity-electricity</li>
+        </ul>
+</div>
+
+<!-- bootstrap code for footer -->
+<div class="container footer-about-page">
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        </ul>
+        <p class="text-center text-body-secondary">EE2080 - 2025 - Group 5 - Datacentre Designer</p>
+    </footer>
+</div>
+<!-- bootstrap code for footer -->
+<script src="index.js"></script>
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"
+></script>
+</body>
+</html>
