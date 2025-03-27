@@ -480,18 +480,18 @@ window.onload = function () {
         ).toLocaleString()} </strong>km<sup>2</sup> of wind farms.</p>`;
       }
 
-      resultsSection.innerHTML += `<p>Your datacentre's cost for building renewables is: <strong>£${Number(
-        firstYearCostTot.toFixed(0)
-      ).toLocaleString()} </strong></p>
-                                    <p>After building renewables in the 1st year your rolling energy costs (less maintainance) would be: <strong>£${Number(
-                                      yearlyCostTot.toFixed(0)
-                                    ).toLocaleString()}</strong></p>
-                                    <p>Your datacentre's initial CO₂ emissions: <strong>${renewablesCarbon.toFixed(
-                                      2
-                                    )} metric tons</strong>.</p>
-                                    <p>Your datacentre's yearly CO₂ emissions: <strong>${nonRenewablesCarbon.toFixed(
-                                      2
-                                    )} metric tons</strong>.</p>`;
+      resultsSection.innerHTML += `<p>Your datacentre's cost for building renewables is: <strong>£${Number(solarCost + windCost).toLocaleString()} </strong>
+      
+      </p>
+      <p>After building renewables in the 1st year your rolling energy costs (less maintainance) would be: <strong>£${Number(
+        yearlyCostTot.toFixed(0)
+      ).toLocaleString()}</strong></p>
+      <p>Your datacentre's initial CO₂ emissions: <strong>${renewablesCarbon.toFixed(
+        2
+      )} metric tons</strong>.</p>
+      <p>Your datacentre's yearly CO₂ emissions: <strong>${nonRenewablesCarbon.toFixed(
+        2
+      )} metric tons</strong>.</p>`;
     }
 
     resultsSection.innerHTML += `<button class="button" onclick="restartGame()">Restart Game</button>`;
